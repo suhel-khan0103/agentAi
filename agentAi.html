@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhel AI Agent</title>
+</head>
+<body>
+
+    <header>
+        <h1>🤖 Suhel AI Agent</h1>
+        <p>Your Personal AI Assistant</p>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a> |
+        <a href="#messages">Messages</a> |
+        <a href="#contacts">Contacts</a> |
+        <a href="#calls">Calls</a> |
+        <a href="#whatsapp">WhatsApp</a> |
+        <a href="#reminders">Reminders</a> |
+        <a href="#notes">Notes</a> |
+        <a href="#study">Study</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section id="dashboard">
+            <h2>Hello Suhel! 👋</h2>
+            <p>What can I help you with today?</p>
+
+            <form>
+                <label for="command">Give your command:</label>
+                <input id="command" type="text"
+                       placeholder="Ask your AI Agent...">
+                <button type="button">Submit Command</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="messages">
+            <h2>📩 Messages</h2>
+            <p>Read and manage your messages.</p>
+            <button type="button">View Messages</button>
+        </section>
+
+        <section id="contacts">
+            <h2>📇 Find Contacts</h2>
+            <form>
+                <label for="person">Person's name:</label>
+                <input id="person" type="text"
+                       placeholder="Enter name">
+                <button type="button">Find Number</button>
+            </form>
+        </section>
+
+        <section id="calls">
+            <h2>📞 Calls</h2>
+            <form>
+                <label for="phone">Mobile number:</label>
+                <input id="phone" type="tel"
+                       placeholder="Enter mobile number">
+                <button type="button">Call</button>
+            </form>
+        </section>
+
+        <section id="whatsapp">
+            <h2>💬 WhatsApp</h2>
+            <form>
+                <label for="whatsapp-number">Mobile number:</label>
+                <input id="whatsapp-number" type="tel"
+                       placeholder="Enter number">
+
+                <label for="message">Your message:</label>
+                <textarea id="message"
+                          placeholder="Write your message"></textarea>
+
+                <button type="button">Send Message</button>
+            </form>
+        </section>
+
+        <section id="reminders">
+            <h2>⏰ Alarms & Reminders</h2>
+            <form>
+                <label for="reminder">Reminder:</label>
+                <input id="reminder" type="text"
+                       placeholder="Study at 7 PM">
+
+                <label for="reminder-time">Date and time:</label>
+                <input id="reminder-time" type="datetime-local">
+
+                <button type="button">Set Reminder</button>
+            </form>
+        </section>
+
+        <section id="notes">
+            <h2>📝 Notes</h2>
+            <form>
+                <label for="note">Write your note:</label>
+                <textarea id="note"
+                          placeholder="Write study notes here"></textarea>
+                <button type="button">Save Note</button>
+            </form>
+        </section>
+
+        <section id="study">
+            <h2>🎓 Study Assistant</h2>
+            <p>Manage your study tasks and questions.</p>
+            <ul>
+                <li>Java programming</li>
+                <li>SQL practice</li>
+                <li>Full Stack Development</li>
+                <li>Daily study reminders</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h3>Recent Activity</h3>
+            <ul>
+                <li>No activities yet.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Suhel AI Agent | Personal Assistant</p>
+    </footer>
+
+</body>
+</html>
